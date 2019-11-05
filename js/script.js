@@ -8,4 +8,12 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
+var user_scissors = 'scissors';
+var user_rock = 'rock';
+var user_paper = 'paper';
+var randomnumber = 0;
+  $(".game").click(function(){
+    var usernameInput=$(".userchoice").val();
+    randomnumber = Math.random()
 
+ });
